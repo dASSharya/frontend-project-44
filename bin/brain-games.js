@@ -1,6 +1,4 @@
 #!/usr/bin/env node
-// import salution from '../src/cli.js';
-import game1 from '../src/game1.js';
+import salution from '../src/cli.js';
 
-// salution();
-game1();
+salution();
