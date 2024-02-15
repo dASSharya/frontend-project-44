@@ -1,22 +1,17 @@
 import readlineSync from 'readline-sync';
-import salution from './cli.js';
+import salution from '../cli.js';
+import getRandomNumber from '../helpers/getRandomNumber.js';
+import isParityTwo from '../helpers/isParityTwo.js';
 
 const game1 = () => {
   const userName = salution();
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
-  let questionCount = 0;
 
   for (let i = 0; i < 3; i += 1) {
-    questionCount += 1;
-    const randomNumber = Math.floor(Math.random() * 101);
+    const randomNumber = getRandomNumber();
     console.log(`Question: ${randomNumber}`);
 
-    let parityTwo;
-    if (randomNumber % 2 === 0) {
-      parityTwo = 'yes';
-    } else {
-      parityTwo = 'no';
-    }
+    const parityTwo = isParityTwo(randomNumber);
 
     const responseQuestion = readlineSync.question('Your answer:');
     const playersResponse = responseQuestion;
@@ -28,13 +23,11 @@ const game1 = () => {
       console.log(correctAnswer);
     } else {
       console.log(incorrectAnswer);
-      break;
-    }
-
-    if (questionCount === 3) {
-      console.log(`Congratulations, ${userName}!`);
+      return;
     }
   }
+
+  console.log(`Congratulations, ${userName}!`);
 };
 
 export default game1;
