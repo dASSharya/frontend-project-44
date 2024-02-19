@@ -8,3 +8,5 @@
 [![brain-calc](https://asciinema.org/a/Y6RcEKXJD8fu9yBtfvFAJV6MZ.svg)](https://asciinema.org/a/Y6RcEKXJD8fu9yBtfvFAJV6MZ)
 
 [![brain-progression](https://asciinema.org/a/CWgn5ISrmH0GteytNZsOamiR3.svg)](https://asciinema.org/a/CWgn5ISrmH0GteytNZsOamiR3)
+
+[![brain-prime](https://asciinema.org/a/6mprk7ceH8TIrSBfANimbGgqb.svg)](https://asciinema.org/a/6mprk7ceH8TIrSBfANimbGgqb)

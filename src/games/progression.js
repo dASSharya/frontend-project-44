@@ -28,7 +28,8 @@ const progression = () => {
   const playersResponse = +responseQuestion;
 
   const correctAnswer = 'Correct!';
-  const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${hiddenNumber}. Let's try again, ${userName}`;
+  const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${hiddenNumber}. 
+  Let's try again, ${userName}`;
 
   if (playersResponse === hiddenNumber) {
     console.log(correctAnswer);
