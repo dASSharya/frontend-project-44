@@ -6,3 +6,5 @@
 [![brain-even](https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7.svg)](https://asciinema.org/a/l40Lrk3midkLmNEOmgZErGnY7)
 
 [![brain-calc](https://asciinema.org/a/Y6RcEKXJD8fu9yBtfvFAJV6MZ.svg)](https://asciinema.org/a/Y6RcEKXJD8fu9yBtfvFAJV6MZ)
+
+[![brain-progression](https://asciinema.org/a/CWgn5ISrmH0GteytNZsOamiR3.svg)](https://asciinema.org/a/CWgn5ISrmH0GteytNZsOamiR3)
