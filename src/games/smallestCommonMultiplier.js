@@ -13,7 +13,7 @@ const smallestCommonMultiplier = () => {
     const responseQuestion = readlineSync.question('Your answer: ');
     const playersResponse = +responseQuestion;
 
-    while (randomNumber1 !== 0 & randomNumber2 !== 0) {
+    while (randomNumber1 !== 0 && randomNumber2 !== 0) {
       if (randomNumber1 > randomNumber2) {
         randomNumber1 %= randomNumber2;
       } else {
