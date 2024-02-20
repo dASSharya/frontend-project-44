@@ -24,7 +24,7 @@ const smallestCommonMultiplier = () => {
 
     const correctAnswer = 'Correct!';
     const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${result}.
-Let's try again, ${userName}`;
+Let's try again, ${userName}!`;
 
     if (result === playersResponse) {
       console.log(correctAnswer);

@@ -32,7 +32,7 @@ const calc = () => {
 
     const correctAnswer = 'Correct!';
     const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${resultOfExpression}.
-Let's try again, ${userName}`;
+Let's try again, ${userName}!`;
 
     if (playersResponse === resultOfExpression) {
       console.log(correctAnswer);
