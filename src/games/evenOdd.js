@@ -17,7 +17,7 @@ const game1 = () => {
     const playersResponse = responseQuestion;
 
     const correctAnswer = 'Correct!';
-    const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${parityTwo}. Let's try again, ${userName}`;
+    const incorrectAnswer = `${playersResponse} is wrong answer ;(. Correct answer was ${parityTwo}. Let's try again, ${userName}!`;
 
     if (playersResponse === parityTwo) {
       console.log(correctAnswer);

@@ -1,3 +1,5 @@
-const isParityTwo = (number) => number % 2 === 0 ? 'yes' : 'no';
+function isParityTwo(number) {
+  return number % 2 === 0 ? 'yes' : 'no';
+}
 
 export default isParityTwo;
